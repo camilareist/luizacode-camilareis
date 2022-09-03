@@ -22,3 +22,5 @@ def get_item_cart_by_id(id_product):
 def remove_item_id(id_product)
     #remover o item do carrinho que tem esse produto
     pass
+
+lalalala
