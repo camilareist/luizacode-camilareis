@@ -24,4 +24,15 @@ if existe_chave_5:
     print("Chave 5:", dicionario)
 else:
     print("Chave 5 nao existe")
-#Tentar
+
+#Tentar pegar uma chave sem precisar testa
+etiqueta = 5
+valor_chave_5 = dicionario.get(etiqueta)
+print("Valor com chave 5:", valor_chave_5)
+
+#pegadinha
+dicionario = {
+    5: None
+}
+print ('Engana 1:', dicionario.get(5))
+print('Confirmando a chave?', 5 in dicionario)
