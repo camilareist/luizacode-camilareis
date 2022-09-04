@@ -23,3 +23,13 @@ def get_item_cart_by_product(id_product):
     print(new_list[0])
      
 get_item_cart_by_product(id_product)
+
+
+new_lista = []
+def remove_item_id(id_product):
+    for item in cart:
+        if item [1] == '123':
+            new_lista.pop(item)
+        
+print(new_lista)
+
